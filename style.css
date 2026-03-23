@@ -606,6 +606,13 @@ footer {
     font-size: 0.9rem;
 }
 
+.credit {
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: rgba(0, 198, 255, 0.7); /* Muted electric blue */
+    font-family: var(--font-body);
+}
+
 /* ================= RESPONSIVE DESIGN ================= */
 @media (max-width: 1200px) {
     h1 { font-size: 4.5rem; }
