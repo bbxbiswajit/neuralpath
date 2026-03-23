@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuralPath - Your mind, mapped by AI.</title>
+    <!-- Google Fonts: Syne and DM Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Meta details for SEO -->
+    <meta name="description" content="Discover the ultimate AI learning roadmap platform. NeuralPath charts the course so you can focus on the learning journey.">
+</head>
+<body>
+    <!-- Subtle Animated Particle Background -->
+    <canvas id="particle-canvas"></canvas>
+    
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">NeuralPath</div>
+        <div class="nav-links">
+            <a href="#how-it-works">How it Works</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+        </div>
+    </nav>
+
+    <!-- 1. HERO -->
+    <section id="hero" class="hero fade-in-section">
+        <!-- Fullscreen Video Background with Seamless Crossfade -->
+        <video id="hero-vid-1" class="hero-video" autoplay loop muted playsinline poster="assets/hero.jpg.jpg">
+            <source src="assets/hero-video.mp4.mp4" type="video/mp4">
+        </video>
+        <video id="hero-vid-2" class="hero-video inactive" autoplay loop muted playsinline poster="assets/hero.jpg.jpg">
+            <source src="assets/hero-video.mp4.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="glowing-text">Your mind, mapped by AI.</h1>
+            <p class="subtext">Discover the ultimate AI learning roadmap platform. We chart the course so you can focus on the journey.</p>
+            <a href="#waitlist" class="neon-btn">Get Early Access</a>
+        </div>
+    </section>
+
+    <!-- 2. HOW IT WORKS -->
+    <section id="how-it-works" class="how-it-works fade-in-section">
+        <h2>How It Works</h2>
+        <div class="steps-container">
+            <div class="steps-cards">
+                <div class="step-card glassmorphism">
+                    <div class="step-number">01</div>
+                    <h3>Describe your goal</h3>
+                    <p>Tell our AI what you want to learn, from quantum physics to playing the piano. No goal is too complex.</p>
+                </div>
+                <div class="step-card glassmorphism">
+                    <div class="step-number">02</div>
+                    <h3>AI maps your path</h3>
+                    <p>Our neural engine generates a step-by-step personalized curriculum tailored to your exact learning style.</p>
+                </div>
+                <div class="step-card glassmorphism">
+                    <div class="step-number">03</div>
+                    <h3>Learn and level up</h3>
+                    <p>Follow the roadmap, track your progress, and master new skills faster than you ever thought possible.</p>
+                </div>
+            </div>
+            <div class="step-image">
+                <img src="assets/brain.jpg.jpg" alt="AI Brain Concept">
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. FEATURES -->
+    <section id="features" class="features fade-in-section">
+        <h2>Features</h2>
+        <div class="features-grid">
+            <div class="feature-card glassmorphism">
+                <div class="feature-icon">⚡</div>
+                <h3>Dynamic adjustments</h3>
+                <p>Your roadmap adapts in real-time. Struggling with a concept? The AI automatically tweaks the difficulty.</p>
+            </div>
+            <div class="feature-card glassmorphism">
+                <div class="feature-icon">🧩</div>
+                <h3>Smart sequencing</h3>
+                <p>Learn prerequisites first. The engine ensures you have the foundational knowledge before moving forward.</p>
+            </div>
+            <div class="feature-card glassmorphism">
+                <div class="feature-icon">🏆</div>
+                <h3>Milestone tracking</h3>
+                <p>Visualize your progress. Unlock achievements and see exactly how close you are to mastery.</p>
+            </div>
+            <div class="feature-image-card">
+                <img src="assets/roadmap.jpg.jpg" alt="Interactive AI Roadmap">
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PRICING -->
+    <section id="pricing" class="pricing fade-in-section">
+        <h2>Pricing</h2>
+        <div class="pricing-container">
+            <!-- Free Plan -->
+            <div class="price-card glassmorphism">
+                <h3>Free</h3>
+                <div class="price">$0<span>/mo</span></div>
+                <ul>
+                    <li>1 AI Roadmap</li>
+                    <li>Basic tracking</li>
+                    <li>Community support</li>
+                </ul>
+                <a href="#waitlist" class="outline-btn">Start Free</a>
+            </div>
+            <!-- Pro Plan -->
+            <div class="price-card glassmorphism popular">
+                <div class="popular-tag">MOST POPULAR</div>
+                <h3>Pro</h3>
+                <div class="price">$19<span>/mo</span></div>
+                <ul>
+                    <li>Unlimited AI Roadmaps</li>
+                    <li>Dynamic re-routing</li>
+                    <li>Priority support</li>
+                    <li>Custom quizzes</li>
+                </ul>
+                <a href="#waitlist" class="neon-btn">Go Pro</a>
+            </div>
+            <!-- Team Plan -->
+            <div class="price-card glassmorphism">
+                <h3>Team</h3>
+                <div class="price">$49<span>/mo</span></div>
+                <ul>
+                    <li>Everything in Pro</li>
+                    <li>Team progress dashboard</li>
+                    <li>Collaborative roadmaps</li>
+                    <li>API access</li>
+                </ul>
+                <a href="#waitlist" class="outline-btn">Get Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. WAITLIST FORM -->
+    <section id="waitlist" class="waitlist fade-in-section">
+        <div class="waitlist-card glassmorphism">
+            <h2>Join the Revolution</h2>
+            <p>We are currently in private beta. Join the waitlist to secure your early access spot.</p>
+            <form class="waitlist-form" id="waitlistForm">
+                <input type="email" id="emailInput" placeholder="Enter your email address" required aria-label="Email address">
+                <button type="submit" class="neon-btn" id="submitBtn">Submit</button>
+            </form>
+            <div id="formMessage" class="form-message"></div>
+        </div>
+    </section>
+
+    <!-- 6. FOOTER -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-logo logo">NeuralPath</div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 NeuralPath. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Supabase JS v2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="script.js"></script>
+</body>
+</html>
